@@ -2,11 +2,9 @@ from sympy.physics.vector import *
 
 N = ReferenceFrame('N')
 
-N.x
-N.y
-N.z
+print(N.x, N.y, N.z)
 
-N.x == N.x
-N.y == N.y
-N.z == N.z
+print(N.x == N.x)
+print(N.y == N.y)
+print(N.z == N.z)
 
